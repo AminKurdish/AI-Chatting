@@ -1,6 +1,6 @@
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = process.env.GEMINI_API_KEY;
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const ai = new GoogleGenAI({ apiKey });
 
 const SYSTEM_INSTRUCTION = `You are Amin's personal AI assistant on his portfolio website. Your name is "Amin's AI".
