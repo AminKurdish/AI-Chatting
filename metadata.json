@@ -1,0 +1,5 @@
+{
+  "name": "Amin's AI Assistant",
+  "description": "A personal AI assistant for Amin's portfolio website, capable of answering questions about Amin and general coding topics.",
+  "requestFramePermissions": ["microphone"]
+}
